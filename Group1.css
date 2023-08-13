@@ -28,15 +28,17 @@
     border: none;
     font-size: 16px;
     background-color: #F5F5F5;
-}
-a .nav-button .nav-buttoncontact .nav-buttoninactive {
     cursor: pointer;
 }
+/* .nav-button .nav-buttoncontact .nav-buttoninactive {
+    cursor:zoom-out;
+} */
 .nav-buttoninactive{
     padding: 24px;
     border: none;
     background-color: white;
     font-size: 16px;
+    cursor: pointer;
 }
 .nav-buttoncontact{
     padding: 24px;
@@ -44,6 +46,7 @@ a .nav-button .nav-buttoncontact .nav-buttoninactive {
     color: white;
     border: none;
     font-size: 16px;
+    cursor: pointer;
 }
 .name{
     display: flex;
